@@ -1,4 +1,4 @@
-FROM 100.125.0.198:20202/hwcse/dockerhub-java:8-jre-alpine
+FROM 100.125.54.127:20202/liuxiaowei/dockerhub-java:8-jre-alpine
 
 WORKDIR /home/apps/
 ADD target/java-0.0.1-SNAPSHOT.jar .
